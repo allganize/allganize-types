@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "allganize-types"
+version = "0.1.0"
+description = "Stub files for Allganize"
+authors = ["minhyeoky <mhlee@allganize.io>"]
+readme = "README.md"
+packages = [{include = "mongoengine-stubs"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mongoengine = "0.15.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
