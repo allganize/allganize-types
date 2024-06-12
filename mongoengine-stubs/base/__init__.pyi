@@ -8,3 +8,4 @@ from mongoengine.base.document import *
 from mongoengine.base.fields import *
 from mongoengine.base.metaclasses import *
 
+__all__ = ("UPDATE_OPERATORS", "_document_registry", "get_document", "BaseDict", "BaseList", "EmbeddedDocumentList", "LazyReference", "BaseDocument", "BaseField", "ComplexBaseField", "ObjectIdField", "GeoJsonBaseField", "DocumentMetaclass", "TopLevelDocumentMetaclass")
